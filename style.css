@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('imagem1.jpg'); /* Caminho para a imagem de fundo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 150vh;
+  color: white;
+}
+
+#quiz {
+  max-width: 500px;
+  margin: 10px auto; /* margem para o quiz ficar centralizado */
+  padding: 20px;
+  background-color: rgba(24, 23, 23, 0.8); /* fundo semitransparente */
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  color: #ee00009d; /* cor vibrante para o título */
+}
+
+#question {
+  margin-bottom: 20px;
+}
+
+#options {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+button {
+  display: block;
+  margin: 20px auto 0; /* margem superior para o botão ficar afastado */
+  padding: 10px 20px;
+  background-color: #000000; /* cor escura para o botão */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c5c2c2; /* cor de hover */
+}
+
+#banner {
+  text-align: center;
+  padding: 60px 20px;
+ /*background-color: rgba(0, 0, 0, 0.5); fundo escuro para banner*/
+}
+
+#banner-text h1 span {
+  color: yellow;
+}
+
+.bot {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: yellow;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.bot:hover {
+  background-color: orange;
+}
