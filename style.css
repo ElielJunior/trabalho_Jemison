@@ -11,12 +11,13 @@ body {
 }
 
 #quiz {
-  max-width: 500px;
+  max-width: 1000px;
   margin: 10px auto; /* margem para o quiz ficar centralizado */
   padding: 20px;
   background-color: rgba(24, 23, 23, 0.8); /* fundo semitransparente */
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  font-size: large;
 }
 
 h1 {
@@ -36,9 +37,10 @@ h1 {
 
 button {
   display: block;
-  margin: 20px auto 0; /* margem superior para o botão ficar afastado */
-  padding: 10px 20px;
+  margin: 30px auto 0; /* margem superior para o botão ficar afastado */
+  padding: 20px 30px;
   background-color: #000000; /* cor escura para o botão */
+  font-size:larger;
   color: #ffffff;
   border: none;
   border-radius: 5px;
@@ -53,7 +55,8 @@ button:hover {
 #banner {
   text-align: center;
   padding: 60px 20px;
- /*background-color: rgba(0, 0, 0, 0.5); fundo escuro para banner*/
+  font-size: medium;
+ 
 }
 
 #banner-text h1 span {
@@ -68,6 +71,7 @@ button:hover {
   color: black;
   text-decoration: none;
   border-radius: 5px;
+  font-size: medium;
 }
 
 .bot:hover {
